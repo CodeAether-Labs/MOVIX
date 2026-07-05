@@ -80,7 +80,7 @@ async function fetchMovies(query) {
 }
 
  onMounted(() => {
-  fetchMovies('FBI')
+  fetchMovies('mo')
 })
 
 function handleSearch(query) {

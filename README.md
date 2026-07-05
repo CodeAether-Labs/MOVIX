@@ -53,4 +53,4 @@ npm run build
 
 ## 👩‍💻 Auteur
 
-Projet réalisé par **Ton prénom** dans le cadre d'un stage d'apprentissage de Vue.js.
+Projet réalisé par **Quevine Geronime KOUKOUDOUI** dans le cadre d'un stage d'apprentissag

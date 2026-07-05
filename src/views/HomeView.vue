@@ -1,17 +1,17 @@
 <template>
   <main class="min-h-screen bg-gradient-to-br from-slate-950 via-slate-900 to-blue-950 text-white px-8 py-10">
-    <div class="max-w-6xl mx-auto">
+    <div class="max-w-7xl mx-auto">
 
-      <h1 class="text-6xl font-black text-center text-blue-400 tracking-wide">
+      <h1 class="text-6xl font-extrabold text-center text-blue-400 tracking-wide">
            🎬 MOVIX
       </h1>
 
-      <p class="text-center text-gray-300 mt-4 text-lg">
-          Recherchez vos films et séries préférés.
+      <p class="text-center text-gray-300 mt-5 mb-12 text-lg">
+          Decouvrir vos films et séries préférés.
       </p>
       <SearchBar @search="handleSearch" />
 
-      <h2 class="text-2xl font-bold mt-12 mb-6">
+      <h2 class="text-3xl font-bold mt-20 mb-10">
 
         🔥 Films populaires
       </h2>
@@ -29,7 +29,7 @@
 
       <div
       v-else
-      class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 justify-items-contents">
         <MovieCard
           v-for="movie in movies"
           :key="movie.id"

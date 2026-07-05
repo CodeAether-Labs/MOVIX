@@ -1,44 +1,56 @@
-# Movix
+# 🎬 MOVIX
 
-This template should help get you started developing with Vue 3 in Vite.
+MOVIX est une application web développée avec **Vue 3**, **Vite** et **Tailwind CSS** permettant de rechercher des films et des séries grâce à l'API TVMaze.
 
-## Recommended IDE Setup
+## ✨ Fonctionnalités
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- 🔍 Recherche de films et de séries
+- 🎞️ Affichage des résultats sous forme de cartes
+- ⭐ Affichage de la note
+- 🏷️ Affichage du genre
+- 🖼️ Affichage des affiches lorsque disponibles
+- 🎨 Interface moderne réalisée avec Tailwind CSS
 
-## Recommended Browser Setup
+## 🛠️ Technologies utilisées
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+- Vue 3
+- Vite
+- Tailwind CSS
+- JavaScript (ES6)
+- API TVMaze
 
-## Customize configuration
+## 🚀 Installation
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+Clonez le projet :
 
-## Project Setup
+```bash
+git clone https://github.com/VOTRE-UTILISATEUR/Movix.git
+```
 
-```sh
+Accédez au dossier :
+
+```bash
+cd Movix
+```
+
+Installez les dépendances :
+
+```bash
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+Lancez le serveur de développement :
 
-```sh
+```bash
 npm run dev
 ```
 
-### Compile and Minify for Production
+## 📦 Construire le projet
 
-```sh
+```bash
 npm run build
 ```
 
-### Lint with [ESLint](https://eslint.org/)
+## 👩‍💻 Auteur
 
-```sh
-npm run lint
-```
+Projet réalisé par **Ton prénom** dans le cadre d'un stage d'apprentissage de Vue.js.
